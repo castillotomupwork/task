@@ -58,12 +58,15 @@ const UserDataTable: React.FunctionComponent<IUserDataTableProps> = ({
                         <PencilSquareIcon className="w-5 h-5" />
                     </button>
 
-                    <button 
-                        className="text-gray-600 hover:text-red-400 cursor-pointer"
-                        onClick={() => triggerDelete(row)}
-                    >
-                        <TrashIcon className="w-5 h-5" />
-                    </button>
+                    {!row.isDeleted && (
+                        <button 
+                            className="text-gray-600 hover:text-red-400 cursor-pointer"
+                            onClick={() => triggerDelete(row)}
+                        >
+                            <TrashIcon className="w-5 h-5" />
+                        </button>
+                    )}
+                    
                 </div>
             ),
             ignoreRowClick: true,

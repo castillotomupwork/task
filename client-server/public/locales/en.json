@@ -37,7 +37,7 @@
         "username": "Username",
         "email": "Email",
         "password": "Password",
-        "isDeleted": "Deleted",
+        "isDeleted": "Inactive",
         "isDeletedYes": "Yes",
         "isDeletedNo": "No",
         "createUser": "Create User",
@@ -45,10 +45,10 @@
         "noUser": "No users found",
         "created": "User Created!",
         "updated": "User Updated!",
-        "deleted": "User Deleted!",
+        "deleted": "User Inactive!",
         "failedCreate": "Failed to create User.",
         "failedUpdate": "Failed to update User.",
-        "failedDelete": "Failed to delete User.",
+        "failedDelete": "Failed to deactivate User.",
         "actions": "Actions"
     },
     "dataTable": {

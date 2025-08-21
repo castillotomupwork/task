@@ -13,7 +13,7 @@ export const getUsers = async (): Promise<UserDocument[]> => {
 };
 
 export const getUserById = async (id: string): Promise<UserDocument | null> => {
-  return await User.findOne({ _id: id, isDeleted: false });
+  return await User.findOne({ _id: id });
 };
 
 export const isUsernameTaken = async (

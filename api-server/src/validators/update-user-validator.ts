@@ -36,9 +36,7 @@ export const updateUserValidator = (t: TFunction) =>
         ,
 
         password: z
-            .string({
-                required_error: t("user.validation.password.required")
-            })
+            .string()
             .min(6, t("user.validation.password.minLength"))
             .refine(
                 (val) => /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/.test(val),
@@ -46,6 +44,8 @@ export const updateUserValidator = (t: TFunction) =>
                     message: t("user.validation.password.strength"),
                 }
             )
+            .optional()
+            .or(z.literal(""))
         ,
 
         isDeleted: z

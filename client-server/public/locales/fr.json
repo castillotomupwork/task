@@ -37,7 +37,7 @@
         "username": "Nom d'utilisateur",
         "email": "E-mail",
         "password": "Mot de passe",
-        "isDeleted": "Supprimé",
+        "isDeleted": "Inactif",
         "isDeletedYes": "Oui",
         "isDeletedNo": "Non",
         "createUser": "Créer un utilisateur",
@@ -45,10 +45,10 @@
         "noUser": "Aucun utilisateur trouvé",
         "created": "Créé par l'utilisateur!",
         "updated": "Mise à jour de l'utilisateur!",
-        "deleted": "Utilisateur supprimé!",
+        "deleted": "Utilisateur inactif!",
         "failedCreate": "Échec de la création de l'utilisateur.",
         "failedUpdate": "Échec de la mise à jour de l'utilisateur.",
-        "failedDelete": "Échec de la suppression de l'utilisateur.",
+        "failedDelete": "Échec de la désactivation de l'utilisateur.",
         "actions": "Actes"
     },
     "dataTable": {

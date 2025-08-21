@@ -1,0 +1,75 @@
+{
+    "task": {
+        "validation": {
+            "id": {
+                "required": "L'ID de tâche est requis"
+            },
+            "title": {
+                "required": "Le titre est obligatoire"
+            },
+            "status": {
+                "required": "Le statut est requis",
+                "invalid": "Le statut doit être en attente, en cours ou terminé"
+            },
+            "dueDate": {
+                "required": "La date d'échéance est obligatoire",
+                "format": "La date doit être au format AAAA-MM-JJ",
+                "invalid": "La date d'échéance doit être une date valide",
+                "future": "La date d'échéance doit être supérieure à aujourd'hui"
+            },
+            "priority": {
+                "required": "La priorité est requise",
+                "invalid": "La priorité doit être faible, moyenne ou élevée"
+            },
+            "assignedTo": {
+                "required": "Attribué à est obligatoire",
+                "invalid": "L'utilisateur affecté doit être valide",
+                "notFound": "Attribué à l'utilisateur non trouvé"
+            },
+            "createdBy": {
+                "required": "Créé par est requis",
+                "invalid": "Créé par doit être un utilisateur valide",
+                "notFound": "Créé par un utilisateur introuvable"
+            }
+        },
+        "status": {
+            "pending": "En attente",
+            "in-progress": "En cours",
+            "completed": "Terminé"
+        },
+        "priority": {
+            "low": "Faible",
+            "medium": "Moyenne",
+            "high": "Élevée"
+        },
+        "notFound": "Tâche non trouvée"
+    },
+
+    "user": {
+        "validation": {
+            "id": {
+                "required": "L'identifiant utilisateur est requis"
+            },
+            "name": {
+                "required": "Le nom est obligatoire"
+            },
+            "username": {
+                "required": "Le nom d'utilisateur est requis",
+                "duplicate": "Le nom d'utilisateur \"{{value}}\" existe déjà"
+            },
+            "email": {
+                "required": "L'email est requis",
+                "invalid": "Adresse e-mail invalide",
+                "duplicate": "L'email \"{{value}}\" existe déjà"
+            },
+            "password": {
+                "required": "Le mot de passe est requis",
+                "minLength": "Le mot de passe doit comporter au moins 6 caractères",
+                "strength": "Le mot de passe doit inclure une minuscule, une majuscule, un chiffre et un symbole"
+            }
+        },
+        "notFound": "Utilisateur non trouvé"
+    },
+
+    "internalError": "Erreur interne du serveur"
+}

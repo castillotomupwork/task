@@ -1,0 +1,60 @@
+{
+    "task": {
+        "task": "Task",
+        "newTask": "New Task",
+        "title": "Title",
+        "description": "Description",
+        "dueDate": "Due Date",
+        "priority": "Priority",
+        "status": "Status",
+        "assignedTo": "Assigned To",
+        "createdBy": "Created By",
+        "createTask": "Create Task",
+        "updateTask": "Update Task",
+        "selectUser": "Select User",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "pending": "Pending",
+        "inProgress": "In Progress",
+        "completed": "Completed",
+        "noTask": "No tasks found",
+        "created": "Task Created!",
+        "updated": "Task Updated!",
+        "deleted": "Task Deleted!",
+        "failedCreate": "Failed to create Task.",
+        "failedUpdate": "Failed to update Task.",
+        "failedDelete": "Failed to delete Task.",
+        "actions": "Actions",
+        "errors": {
+            "users": "Error fetching users"
+        }
+    },
+    "user": {
+        "user": "User",
+        "newUser": "New User",
+        "name": "Name",
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "isDeleted": "Deleted",
+        "isDeletedYes": "Yes",
+        "isDeletedNo": "No",
+        "createUser": "Create User",
+        "updateUser": "Update User",
+        "noUser": "No users found",
+        "created": "User Created!",
+        "updated": "User Updated!",
+        "deleted": "User Deleted!",
+        "failedCreate": "Failed to create User.",
+        "failedUpdate": "Failed to update User.",
+        "failedDelete": "Failed to delete User.",
+        "actions": "Actions"
+    },
+    "dataTable": {
+        "rowsPerPage": "Rows per page",
+        "of": "of",
+        "all": "All"
+    },
+    "systemError": "System error, please try again later."
+}

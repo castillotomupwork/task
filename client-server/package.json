@@ -1,0 +1,49 @@
+{
+  "name": "demo-client",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A simple React frontend for a demo app that allows users to manage tasks, authenticate, and interact with the backend API.",
+  "author": "Tom Castillo",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "flag-icons": "^7.5.0",
+    "i18next": "^25.3.4",
+    "i18next-http-backend": "^3.0.2",
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-data-table-component": "^7.7.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.6.1",
+    "react-router-dom": "^6.30.1",
+    "styled-components": "^6.1.19",
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@esbuild/linux-x64": "^0.25.5",
+    "@eslint/js": "^9.25.0",
+    "@rollup/rollup-linux-x64-gnu": "^4.43.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite-plugin-static-copy": "^3.0.2"
+  }
+}

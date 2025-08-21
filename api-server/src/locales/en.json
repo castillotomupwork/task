@@ -1,0 +1,75 @@
+{
+    "task": {
+        "validation": {
+            "id": {
+                "required": "Task Id is required"
+            },
+            "title": {
+                "required": "Title is required"
+            },
+            "status": {
+                "required": "Status is required",
+                "invalid": "Status must be pending, in-progress, or completed"
+            },
+            "dueDate": {
+                "required": "Due Date is required",
+                "format": "Date must be in YYYY-MM-DD format",
+                "invalid": "Due Date must be a valid date",
+                "future": "Due Date must be greater than today"
+            },
+            "priority": {
+                "required": "Priority is required",
+                "invalid": "Priority must be low, medium, or high"
+            },
+            "assignedTo": {
+                "required": "Assigned To is required",
+                "invalid": "Assigned To must be a valid user",
+                "notFound": "Assigned To user not found"
+            },
+            "createdBy": {
+                "required": "Created By is required",
+                "invalid": "Created By must be a valid user",
+                "notFound": "Created By user not found"
+            }
+        },
+        "status": {
+            "pending": "Pending", 
+            "in-progress": "In Progress",
+            "completed": "Completed"
+        },
+        "priority": {
+            "low": "Low", 
+            "medium": "Medium", 
+            "high": "High"
+        },
+        "notFound": "Task not found"
+    },
+
+    "user": {
+        "validation": {
+            "id": {
+                "required": "User Id is required"
+            },
+            "name": {
+                "required": "Name is required"
+            },
+            "username": {
+                "required": "Username is required",
+                "duplicate": "Username \"{{value}}\" already exists"
+            },
+            "email": {
+                "required": "Email is required",
+                "invalid": "Invalid email address",
+                "duplicate": "Email \"{{value}}\" already exists"
+            },
+            "password": {
+                "required": "Password is required",
+                "minLength": "Password must be at least 6 characters",
+                "strength": "Password must include: lowercase, uppercase, number, and symbol"
+            }
+        },
+        "notFound": "User not found"
+    },
+
+    "internalError": "Internal server error"
+}

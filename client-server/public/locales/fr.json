@@ -1,0 +1,60 @@
+{
+    "task": {
+        "task": "Tâche",
+        "newTask": "Nouvelle Tâche",
+        "title": "Titre",
+        "description": "Description",
+        "dueDate": "Deux Rendez-vous",
+        "priority": "Priorité",
+        "status": "Statut",
+        "assignedTo": "Affecté à",
+        "createdBy": "Créé Par",
+        "createTask": "Créer une Tâche",
+        "updateTask": "Mettre à Jour la Tâche",
+        "selectUser": "Sélectionner l'utilisateur",
+        "low": "Faible",
+        "medium": "Moyen",
+        "high": "Élevé",
+        "pending": "En attente",
+        "inProgress": "En Cours",
+        "completed": "Terminé",
+        "noTask": "Aucune tâche trouvée",
+        "created": "Tâche Créée!",
+        "updated": "Tâche Mise à Jour!",
+        "deleted": "Tâche supprimée!",
+        "failedCreate": "Échec de la création de la Tâche.",
+        "failedUpdate": "Échec de la mise à jour de la Tâche.",
+        "failedDelete": "Échec de la suppression de la Tâche.",
+        "actions": "Actes",
+        "errors": {
+            "users": "Erreur lors de la récupération des utilisateurs"
+        }
+    },
+    "user": {
+        "user": "Utilisateur",
+        "newUser": "Nouvel Utilisateur",
+        "name": "Nom",
+        "username": "Nom d'utilisateur",
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "isDeleted": "Supprimé",
+        "isDeletedYes": "Oui",
+        "isDeletedNo": "Non",
+        "createUser": "Créer un utilisateur",
+        "updateUser": "Mettre à jour l'utilisateur",
+        "noUser": "Aucun utilisateur trouvé",
+        "created": "Créé par l'utilisateur!",
+        "updated": "Mise à jour de l'utilisateur!",
+        "deleted": "Utilisateur supprimé!",
+        "failedCreate": "Échec de la création de l'utilisateur.",
+        "failedUpdate": "Échec de la mise à jour de l'utilisateur.",
+        "failedDelete": "Échec de la suppression de l'utilisateur.",
+        "actions": "Actes"
+    },
+    "dataTable": {
+        "rowsPerPage": "Lignes par page",
+        "of": "de",
+        "all": "Tout"
+    },
+    "systemError": "Erreur système, veuillez réessayer plus tard."
+}
